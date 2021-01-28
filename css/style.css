@@ -8,11 +8,18 @@ h1 {
     color: #204051;
     margin: 0;
     font-family: 'Sacramento', cursive;
-    font-size: 80px;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 200px;
+    font-size: 2em;
+    color: #e7dfd5;
+    margin-top: 0;
 }
 
 h3 {
-    color: #3b6978;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,8 +33,46 @@ hr{
 .Top-Container{
     background-color: #84a9ac;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 300px;
+    padding-top: 150px;
+    padding-bottom: 400px;
+}
+
+.hut-img-1, .hut-img-2, .hut-img-3 {
+    width: 25%;
+}
+
+.hut-img-1, .hut-img-3 {
+    float: left;
+    margin-right: 30px;
+}
+
+.hut-img-2 {
+    float: right;
+    margin-left: 30px;
+}
+
+.shack-card {
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    line-height: 2;
+    color: #e7dfd5;
+}
+
+.rocks  {
+    position: absolute;
+    width: 3%;
+    bottom: -10px;
+}
+
+.weeds {
+    position: absolute;
+    width: 5%;
+    bottom: -4px;
+}
+
+#title-desc {
+    color: #3b6978;
 }
 
 #top-cloud{
@@ -40,10 +85,16 @@ hr{
 #bottom-cloud{
     position: absolute;
     left: 25%;
-    bottom: 250px;
+    bottom: 225px;
     height: 65px;
 }
 
+#Title-Shack {
+    position: absolute;
+    width: 275px;
+    bottom: -20px;
+    right: 30%
+}
 #Shack{
     position: absolute;
     background-color: #c19277;
@@ -51,6 +102,26 @@ hr{
     height: 150px;
     bottom: 0px;
     right: 30%
+}
+
+#Fisherman {
+    position: absolute;
+    width: 100px;
+    bottom: -5px;
+    left: 39%;
+}
+
+#Snow{
+    background-color: white;
+    height: 10px;
+}
+
+#Snow-Hole{
+    background-color: #e7dfd5;
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    left: 40%;
 }
 
 #Ice{
@@ -65,7 +136,57 @@ hr{
     position: absolute;
     left: 40%;
 }
+
 #Water{
+    position: relative;
     background-color: #3b6978;
-    height: 1000px;
+    padding-bottom: 200px
+}
+
+
+/* #Line{
+    position: absolute;
+    background-color: white;
+    width: 2.5px;
+    height: 100px;
+    left: 40.6%;
+    top: -75px;
+}
+
+#Hook{
+    position: absolute;
+    background-color: lime;
+    width: 5px;
+    height: 5px;
+    left: 40.5%;
+    top: 25px;
+} */
+
+#weed-1{
+    left: 15%;
+}
+
+#weed-2{
+    left: 40%;
+}
+
+#weed-3{
+    right: 15%;
+}
+
+#rock-1{
+    left: 25%;
+}
+
+#rock-2{
+    left: 50%;
+}
+
+#rock-3{
+    right: 30%;
+}
+
+#Floor{
+    background-color: #c19277;
+    height: 200px;
 }
