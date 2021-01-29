@@ -30,6 +30,26 @@ hr{
     width: 15%;
 }
 
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
 .Top-Container{
     background-color: #84a9ac;
     position: relative;
@@ -75,6 +95,19 @@ hr{
     color: #3b6978;
 }
 
+#nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sun, #moon {
+    position: absolute;
+    right: 100%;
+    top: 25px;
+    height: 100px;
+}
+
 #top-cloud{
     position: absolute;
     right: 25%;
@@ -102,6 +135,13 @@ hr{
     height: 150px;
     bottom: 0px;
     right: 30%
+}
+
+#Tip-Up {
+    position: absolute;
+    width: 100px;
+    bottom: -50px;
+    left: 36.5%;
 }
 
 #Fisherman {
